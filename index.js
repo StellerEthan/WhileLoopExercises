@@ -41,3 +41,11 @@ for (i = startFuel; i>0; i = i - (100*numAstro)){
 /*Exercise #5: Output the result with the phrase, “The shuttle gained an altitude of ___ km.”
 
 If the altitude is 2000 km or higher, add “Orbit achieved!” Otherwise add, “Failed to reach orbit.”*/
+
+console.log(`The shuttle gained an altitude of ${altitude} km.`)
+
+if (altitude > 2000){
+    console.log('Orbit achieved!');
+} else {
+    console.log("Failed to reach orbit.")
+}
